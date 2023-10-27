@@ -1,0 +1,27 @@
+body{
+    margin: 7% auto auto  auto;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: #ffffffcb;
+}
+input{
+    border-color: #615656c0;
+    border-radius: 999px;
+}
+h1{
+    background-color: rgb(0, 0, 0);
+    color: #ffffffcb;
+}
+#hr{
+    border: groove 1px rgba(255, 255, 255, 0.719);
+}
+#a{
+    cursor: grab;
+}
+button{
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 999px;
+}
+a{
+    text-decoration: none;
+    color: #000000cb;
+}
