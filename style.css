@@ -5,6 +5,11 @@ body{
     margin-top: -0.98%;
     font-family:'Courier New', Courier, monospace
 }
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+    size: 120%;
+    text-align: center;
+}
 header{
     color:rgb(255, 255, 255);
     list-style-type: none;
@@ -18,15 +23,10 @@ LI a{
 li{
     display: inline;
     font-size: 20px;
-    float:inherit
 }
 a{
   color: rgba(255, 255, 255, 0.726);
   text-decoration: none;
-  background-color: rgba(0, 0, 0, 0);
-  -webkit-border-radius:10px;
-     -moz-border-radius:10px;
-          border-radius:10px;
 }
 hr{
     border-color: rgb(0, 0, 0);
@@ -45,12 +45,25 @@ border-style: double;
 border-color: rgba(0, 0, 0, 0.486);
 
 }
-div{
-text-align: center; 
-}
 input{
+    margin-top: -0.5%;
+    height: 25px;
+    width:  15%;
     background-color: rgba(255, 255, 255, 0.74);
     border: 1px groove rgba(8, 8, 8, 0.603);
     border-radius: 999px;
     float: left;
+}
+.img{
+    margin-top: -0.6%;
+    margin-right: 1.4%;
+    max-width: 14%;
+    max-height: 14%;
+    min-height: 1.7%;
+    min-width:  1.7%;
+}
+.right{
+    text-align: right;
+    float: right;
+    margin-top: -0.6%;
 }
